@@ -14,4 +14,4 @@ if __name__ == '__main__':
         print("Осень")
     else:
         print("Ошибка!", file=sys.stderr)
-exit(1)
+exit(1)s
