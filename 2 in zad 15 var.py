@@ -3,7 +3,7 @@ print("ax^2 + bx + c = 0:")
 a = float(input("a = "))
 b = float(input("b = "))
 c = float(input("c = "))
-i = complex
+
 
 d = b ** 2 - 4 * a * c
 print("Дискриминант D = %.2f" % d)
