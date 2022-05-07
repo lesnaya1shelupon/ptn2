@@ -3,14 +3,14 @@ import sys
 EPS = 1e-10
 
 if __name__ == '__main__':
-    x = float(input("Value of x? "))
+    x = float(input("Value of x = "))
     n = int(input("Value of n = "))
     if x == 0:
       print("Illegal value of x", file=sys.stderr)
       exit(1)
 
 
-a = 1 / math.factorial(n + 1)
+a = 1 / math.factorial(n)
 S, k = a, 0
 
 
