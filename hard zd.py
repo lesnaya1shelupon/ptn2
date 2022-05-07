@@ -5,8 +5,9 @@ EPS = 1e-10
 if __name__ == '__main__':
     x = float(input("Value of x = "))
     n = int(input("Value of n = "))
-    if x == 0:
-      print("Illegal value of x", file=sys.stderr)
+    if n < 0:
+      print("Illegal value of n", file=sys.stderr)
+      print("n should be 0 or more", file=sys.stderr)
       exit(1)
 
 
